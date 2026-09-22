@@ -1,0 +1,62 @@
+[gd_scene format=3 uid="uid://4frawusnl4yx"]
+
+[ext_resource type="Script" uid="uid://f5ss4m2qe3wp" path="res://scripts/main.gd" id="1_main"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_main")
+
+[node name="Background" type="ColorRect" parent="."]
+color = Color(0, 0, 0, 1)
+size = Vector2(560, 620)
+
+[node name="Pellets" type="Node2D" parent="."]
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="TopBar" type="ColorRect" parent="UI"]
+color = Color(0.05, 0.05, 0.05, 1)
+size = Vector2(560, 36)
+
+[node name="ScoreLabel" type="Label" parent="UI"]
+offset_left = 12.0
+offset_top = 6.0
+offset_right = 300.0
+offset_bottom = 34.0
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "SCORE: 0"
+
+[node name="GameOverPanel" type="ColorRect" parent="UI"]
+visible = false
+color = Color(0, 0, 0, 0.82)
+size = Vector2(560, 620)
+
+[node name="GameOverLabel" type="Label" parent="UI/GameOverPanel"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -180.0
+offset_top = -60.0
+offset_right = 180.0
+offset_bottom = 60.0
+theme_override_colors/font_color = Color(1, 0.2, 0.2, 1)
+theme_override_font_sizes/font_size = 32
+text = "GAME OVER"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RestartHint" type="Label" parent="UI/GameOverPanel"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -180.0
+offset_top = 10.0
+offset_right = 180.0
+offset_bottom = 50.0
+theme_override_colors/font_color = Color(0.8, 0.8, 0.8, 1)
+theme_override_font_sizes/font_size = 16
+text = "Press any key to restart"
+horizontal_alignment = 1
+vertical_alignment = 1

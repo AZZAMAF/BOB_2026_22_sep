@@ -1,0 +1,15 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1790087540
+icon.svg::CompressedTexture2D::2252047014607281763::1790087495::1790087547::1::::<><><>0<>0<>4c07ae721591f8c8c48139a0848accd6<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://assets/::1790087369
+::res://assets/fonts/::1790087369
+::res://assets/sprites/::1790087369
+::res://scenes/::1790087488
+main.tscn::PackedScene::-1::1790087488::0::1::::<><><>0<>0<><>::res://scripts/main.gd
+::res://scripts/::1790087474
+game_manager.gd::GDScript::8659331670208982785::1790087436::0::1::::<>Node<><>0<>0<><>::
+ghost.gd::GDScript::3273564529150333689::1790087421::0::1::::<>CharacterBody2D<><>0<>0<><>::
+ghost_detector.gd::GDScript::5657271039587610720::1790087442::0::1::::<>Area2D<><>0<>0<><>::
+main.gd::GDScript::414002143935175019::1790087474::0::1::::<>Node2D<><>0<>0<><>::
+pellet.gd::GDScript::3229571828014999183::1790087429::0::1::::<>Area2D<><>0<>0<><>::
+player.gd::GDScript::4736447541591192598::1790087408::0::1::::<>CharacterBody2D<><>0<>0<><>::
